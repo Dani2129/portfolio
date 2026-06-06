@@ -1,73 +1,55 @@
-# React + TypeScript + Vite
+# Daniel Tadesse | Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the source code of my personal portfolio website! 
 
-Currently, two official plugins are available:
+This is a modern, responsive, and beautifully designed web application built to showcase my background, skills, and projects as a 5th-year Computer Science and Engineering student.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
+**[View My Portfolio Here](https://Dani2129.github.io/portfolio/)**
 
-## React Compiler
+## ✨ Features
+- **Modern Tech Stack**: Built with React, TypeScript, and Vite for blazing fast performance.
+- **Premium Design System**: Styled using Tailwind CSS v4 featuring glassmorphism cards and vibrant gradient meshes.
+- **Dark / Light Mode**: Fully integrated theme toggling that automatically saves user preference.
+- **Responsive Layout**: Fluid design that works perfectly on desktop, tablet, and mobile devices.
+- **Custom Animations**: Smooth micro-interactions and scroll animations.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Built With
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS (v4)](https://tailwindcss.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
-## Expanding the ESLint configuration
+## 💻 Running Locally
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+If you'd like to run this project locally, follow these steps:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Dani2129/portfolio.git
+   cd portfolio
+   ```
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📬 Contact
+- **Email**: danitade70@gmail.com | danieltadesse719@gmail.com
+- **LinkedIn**: [Yohana 516130311](https://www.linkedin.com/in/yohana-516130311)
+- **GitHub**: [@Dani2129](https://github.com/Dani2129)
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+*Designed and built by Daniel Tadesse.*

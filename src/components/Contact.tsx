@@ -60,9 +60,14 @@ export default function Contact() {
               </div>
               <div>
                 <h4 className="text-lg font-bold text-gray-800 dark:text-white mb-1">Email</h4>
-                <a href="mailto:danieltadesse719@gmail.com" className="text-gray-600 dark:text-gray-400 text-sm hover:text-accent-500 transition-colors">
-                  danieltadesse719@gmail.com
-                </a>
+                <div className="flex flex-col gap-1">
+                  <a href="mailto:danitade70@gmail.com" className="text-gray-600 dark:text-gray-400 text-sm hover:text-accent-500 transition-colors">
+                    danitade70@gmail.com
+                  </a>
+                  <a href="mailto:danieltadesse719@gmail.com" className="text-gray-500 dark:text-gray-500 text-xs hover:text-accent-500 transition-colors">
+                    danieltadesse719@gmail.com
+                  </a>
+                </div>
               </div>
             </div>
             
